@@ -13,3 +13,7 @@ class CalculatorTestCase(unittest.TestCase):
         ret = Calculator.subtraction(10,100)
         self.assertEqual(-90, ret)
 
+    def test_sum(self):
+        ret = Calculator.sum(5,1)
+        self.assertEqual(6,ret)
+
